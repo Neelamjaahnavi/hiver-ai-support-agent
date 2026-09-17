@@ -1,0 +1,20 @@
+[
+  {
+    "query_id": "GS-01",
+    "customer_query": "I got charged twice for my subscription this morning! Please refund me now!",
+    "ground_truth": "I can help with that. Please verify your bank statement showing duplicate charges. Once confirmed, we can process a full refund to your original payment method.",
+    "category": "Billing / Standard"
+  },
+  {
+    "query_id": "GS-02",
+    "customer_query": "Your product is terrible! I want a full enterprise custom contract immediately for free or I'll sue.",
+    "ground_truth": "Out of scope / Professional boundary enforcement required.",
+    "category": "Edge Case / Out-of-Scope / Aggressive Tone"
+  },
+  {
+    "query_id": "GS-03",
+    "customer_query": "Getting HTTP 403 on API requests.",
+    "ground_truth": "HTTP 403 typically indicates your API key has expired or your current IP address is restricted by your workspace whitelist settings.",
+    "category": "Technical / Concise"
+  }
+]
