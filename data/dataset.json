@@ -1,0 +1,17 @@
+[
+  {
+    "ticket_id": "TCK-101",
+    "issue": "Refund for accidental double charge",
+    "solution": "Verify bank statement showing duplicate transaction within 24 hours. Issue full refund to original payment method via billing portal."
+  },
+  {
+    "ticket_id": "TCK-102",
+    "issue": "Cannot log in using Google OAuth",
+    "solution": "Clear browser cache and cookies, or disable third-party ad blockers interfering with authorization tokens."
+  },
+  {
+    "ticket_id": "TCK-103",
+    "issue": "API key returning 403 Forbidden",
+    "solution": "Check if API key has expired or if IP address whitelist rules are configured in workspace settings."
+  }
+]
